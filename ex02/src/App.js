@@ -7,10 +7,10 @@ class App extends Component {
     sessionStorage.setItem('frontend', 'React');
   }
   getMyStorage = () => {
-    const myCookieDate = document.cookie.split('=')[1];
-    const myLocalStorage = localStorage.getItem('Paragon');
-    const mySessionStorage = sessionStorage.getItem('frontend');
-    console.log(myCookieDate,myLocalStorage,mySessionStorage);
+    const myCookieData = document.cookie.split('=')[1];
+    const myLocalStorageData = localStorage.getItem('Paragon');
+    const mySessionStorageData = sessionStorage.getItem('frontend');
+    console.log(myCookieData,myLocalStorageData,mySessionStorageData);
   }
  
   render() {
